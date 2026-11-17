@@ -1,0 +1,8 @@
+{
+  "source": "sample-18",
+  "observedAt": "2026-11-17T08:00:00.000Z",
+  "items": [
+    {"id": "18-A", "label": "设备租赁日历样例甲", "state": "active", "revision": 1},
+    {"id": "18-B", "label": "设备租赁日历样例乙", "state": "pending", "revision": 1}
+  ]
+}
