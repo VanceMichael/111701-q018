@@ -4,5 +4,30 @@
   "items": [
     {"id": "18-A", "label": "设备租赁日历样例甲", "state": "active", "revision": 1},
     {"id": "18-B", "label": "设备租赁日历样例乙", "state": "pending", "revision": 1}
+  ],
+  "bookings": [
+    {
+      "id": "BK-18-A-01",
+      "deviceId": "18-A",
+      "label": "客户甲租期",
+      "customer": "客户甲",
+      "state": "confirmed",
+      "revision": 1,
+      "startsAt": "2026-11-20T08:00:00.000Z",
+      "endsAt": "2026-11-24T08:00:00.000Z"
+    }
+  ],
+  "maintenance": [
+    {
+      "id": "MT-18-A-01",
+      "deviceId": "18-A",
+      "label": "临时提前的检修",
+      "reason": "制造商召回检查",
+      "state": "scheduled",
+      "revision": 2,
+      "observedAt": "2026-11-17T08:00:00.000Z",
+      "startsAt": "2026-11-21T08:00:00.000Z",
+      "endsAt": "2026-11-23T08:00:00.000Z"
+    }
   ]
 }
